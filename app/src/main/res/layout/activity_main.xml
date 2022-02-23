@@ -71,15 +71,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/edit_email"
-        app:layout_constraintLeft_toLeftOf="parent" />
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Ingressar na lista de e-mails?"
-        android:textSize="18sp"
-        app:layout_constraintLeft_toRightOf="@+id/checkbox"
-        app:layout_constraintTop_toTopOf="@id/checkbox"
-        android:layout_marginTop="12dp"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Ingressar na lista de e-mails?"/>
 
     <TextView
         android:id="@+id/text_sex"
@@ -131,6 +124,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/text_state"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:entries="@array/entries_spinner"
         android:layout_marginStart="5dp"
         />
 
